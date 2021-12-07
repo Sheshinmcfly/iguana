@@ -1,12 +1,6 @@
-* {
-    margin: 0;
-    border: 0;
-    padding: 0;
 
-    font-family: 'Raleway', sans-serif;
-}
 
-header {
+/* header {
     background-color: #000000;
 }
 
@@ -110,4 +104,84 @@ footer a {
 
 a:visited {
     color: #FFFFFF;
+} */
+
+
+
+/* Body */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Hero-section */
+
+#Hero-section h1 {
+    font-weight: 500;
+    font-size: xxx-large;
+}
+
+#Hero-section img {
+    max-height: 100vh;
+}
+
+
+/* Descripcion */
+
+#Descripcion {
+    font-weight: 300;
+}
+
+
+/* Características */
+
+#Caracteristicas {
+    background-color: #1E1A13;
+}
+
+#Caracteristicas h1 {
+    font-weight: 500;
+}
+
+#Caracteristicas h4 {
+    font-weight: 300;
+}
+
+
+/* Imágenes */
+
+#Imagenes img {
+    height: 29vh;
+}
+
+
+/* Footer */
+
+#Footer {
+    background-color: #1E1A13;
+}
+
+#Footer h5 {
+    font-weight: 300;
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* Imágenes */
+    #Imagenes img {
+        max-height: 20vh;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    /* Footer */
+
+    #Footer h5 {
+        font-size: small;
+    }
 }
